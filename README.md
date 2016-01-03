@@ -17,8 +17,8 @@ Multiple main classes detected, select one to run:
 Enter number:
 ```
 
-Select number 2 for remote. Open a new command line and repeat the above by selecting 1 for HelloClient.
+Select number 2 for remote (server). Open a new command line and repeat the above by selecting 1 for HelloClient.
 
 ### References
 
-This project is based on [akka remote hello world](https://github.com/alvinj/AkkaRemoteActorsHelloWorld.git)
+This project is based on [akka remote hello world](https://github.com/alvinj/AkkaRemoteActorsHelloWorld.git).
