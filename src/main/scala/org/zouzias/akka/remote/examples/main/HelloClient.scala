@@ -10,7 +10,7 @@ object HelloClient extends App {
 
   implicit val system = ActorSystem("LocalSystem", config)
   val localActor = system.actorOf(Props[LocalActor], name = "LocalActor")  // the local actor
-  localActor ! "START"                                                     // start the action
+  localActor.!("START")                                                   // start the action
 
 }
 
