@@ -9,7 +9,6 @@ import com.typesafe.config.ConfigFactory
   */
 class LocalActor extends Actor {
 
-
   val config = ConfigFactory.load("remote_application")
 
   val actorName = config.getString("akka.actor.name")
@@ -35,8 +34,7 @@ class LocalActor extends Actor {
       else{
         Thread.sleep(5000L)
         counter = 0
-        sender ! s"Hello back to you again, ${this.actorName}"
+        sender ! s"Hello back to you again after 5s, ${this.actorName}"
       }
   }
 }
-
