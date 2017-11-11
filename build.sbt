@@ -4,8 +4,8 @@ name := "HelloRemote"
 
 version := "1.0"
 
-scalaVersion := "2.11.8"
-val akkaV = "2.4.17"
+scalaVersion := "2.11.11"
+val akkaV = "2.4.20"
 
 javacOptions ++= Seq("-source", "1.8", "-target", "1.8", "-Xlint")
 
